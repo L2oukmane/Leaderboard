@@ -2,8 +2,6 @@
 
 > Leadboard is simple application being built in our second module of our curriculum at microverse. its s score Leaderboard application were you are able to see the score of each participant.
 
-click [here](https://l2oukmane.github.io/Leaderboard/) to see deployed live version
-
 ### Features implemented so far are:
 
 - Responsive HTML page
