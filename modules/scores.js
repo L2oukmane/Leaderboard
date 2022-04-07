@@ -15,6 +15,22 @@ const scores =[
 		name:'Ahmed',
 		score:200,
 	},
+	{
+		name:'Ali',
+		score:220,
+	},
+	{
+		name:'Talha',
+		score:250,
+	},
+	{
+		name:'Nabil',
+		score:100,
+	},
+	{
+		name:'Lynette',
+		score:230,
+	},
 ];
 
 const scoreList = document.getElementById('score-list');

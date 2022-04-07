@@ -54,11 +54,12 @@ main{
     margin-right: 30px;
 }
 
-#score{
+#score-list{
     display: flex;
     flex-direction: column;
     list-style: none;
     border: 2px solid #000;
+    background-color: rgba(160, 158, 158, 0.652)
 }
 
 input{
