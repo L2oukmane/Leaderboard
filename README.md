@@ -1,6 +1,6 @@
 # LEADERBPARD | MODULE-II
 
-> Leadboard is simple application being built in our second module of our curriculum at microverse. its s score Leaderboard application were you are able to see the score of each participant.
+> Leadboard is simple application being built in our second module of our curriculum at microverse. its s score Leaderboard application were you are able to Add your score which will be displayed on the Leaderboard. All data is preserved thanks to the external Leaderboard API service.
 
 ### Features implemented so far are:
 
@@ -15,7 +15,8 @@
 - Webhint (A customizable linting tool that helps you improve your site's accessibility, speed, cross-browser compatibility, and more by checking your code for best practices and common errors).
 - Stylelint (A mighty, modern linter that helps you avoid errors and enforce conventions in your styles).
 - ESlint (A mighty, modern linter that helps you avoid errors and enforce conventions in JavaScript codes)
-- Webpack (A JavaScript Bundler.)
+- Frameworks: N/A
+- Technologies used: Webpack, API
 
 To get a local copy up and running follow these simple example steps.
 
