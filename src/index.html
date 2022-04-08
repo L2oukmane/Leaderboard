@@ -16,7 +16,12 @@
 
        		<div class="recent">
 						 <h2 class="heading2">Recent Scores</h2>
-						 <button class="refresh">Refresh</button>
+						 <div>
+							<span class="rotate-refresh">
+							  <i class="fa-solid fa-spinner"></i>
+							</span>
+							<button id="refresh" type="button">Refresh</button>
+						  </div>
 					 </div>
 					     
 					 		<ul id="score-list">
@@ -24,9 +29,13 @@
 					 		</ul>
 		 		</div>
 				<form class="add-scores">
-         <p>Add your score</p>
+         		<p>Add your score</p>
+				 <span class="success"></span>
 				 <input id="name-value" type="text" placeholder="your name">
 				 <input  id="score-value" type="text" placeholder="your score">
+				 <span class="rotate-submit">
+					<i class="fa-solid fa-spinner"></i>
+				  </span>
 				 <input id="submit-btn" type="submit" value="Submit">
 				</form>
 			</div>
