@@ -64,6 +64,17 @@ input {
   border: 2px solid #000;
 }
 
-.refresh {
+#refresh {
   border: 2px solid #000;
+}
+
+.rotate-submit,
+.rotate-refresh {
+  display: none;
+  margin-right: 20px;
+}
+
+.success {
+  text-align: center;
+  justify-self: center;
 }
