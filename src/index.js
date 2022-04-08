@@ -1,4 +1,3 @@
 import './style.css';
-import addScore from '../modules/scores.js';
+import addScore from '../modules/scoresApi.js';
 
-document.addEventListener('DOMContentLoaded', addScore);
