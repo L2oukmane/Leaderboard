@@ -41,4 +41,3 @@ form.addEventListener('submit', async (e) => {
   setTimeout(() => { document.querySelector('.rotate-submit').style.display = 'none'; }, 1000);
   loadScores();
 });
-
