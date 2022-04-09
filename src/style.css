@@ -1,21 +1,27 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,900;1,100;1,200;1,300;1,400;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300;400;500;600;700&family=Poppins:ital,wght@0,200;0,300;0,400;0,900;1,100;1,200;1,300;1,400;1,800&display=swap');
 
 * {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Jura', sans-serif;
 }
 
 body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-color: rgba(0, 0, 0, 0.808);
 }
 
 main {
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  border: 10px solid rgb(115, 215, 231);
+  border-radius: 36px;
+  margin-top: 17px;
+  margin-left: 12px;
+  margin-right: 12px;
+  margin-bottom: 25px;
 }
 
 .scores {
@@ -44,28 +50,41 @@ main {
 }
 
 .heading1 {
-  font-weight: 400;
+  font-weight: 700;
+  font-size: 40px;
+  color: rgb(115, 215, 231);
+  align-self: flex-start;
+  padding-left: 380px;
+  padding-top: 20px;
 }
 
 .heading2 {
-  font-weight: 300;
+  font-weight: 200;
   margin-right: 30px;
+  color: rgb(115, 215, 231);
 }
 
 #score-list {
   display: flex;
   flex-direction: column;
   list-style: none;
-  border: 2px solid #000;
-  background-color: rgba(160, 158, 158, 0.652);
+  border: 4px solid rgb(115, 215, 231);
+  border-radius: 15px;
+  background-color: #fff;
+  color: rgba(165, 42, 42, 0.801);
 }
 
 input {
-  border: 2px solid #000;
+  border: 2px solid rgba(165, 42, 42, 0.801);
+  border-radius: 10px;
 }
 
 #refresh {
-  border: 2px solid #000;
+  border: 2px solid rgb(115, 215, 231);
+  border-radius: 5px;
+  width: 150px;
+  color: rgba(165, 42, 42, 0.801);
+  font-size: 16px;
 }
 
 .rotate-submit,
@@ -77,4 +96,8 @@ input {
 .success {
   text-align: center;
   justify-self: center;
+}
+
+p {
+  color: rgb(115, 215, 231);
 }
