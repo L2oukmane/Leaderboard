@@ -36,6 +36,12 @@ The basic requirements for building the executable are:
 git clone https://github.com/L2oukmane/Awesome-Books-App-Version-II.git <Your-Build-Directory>
 ```
 
+## Getting started with Webpack
+
+```
+npm install webpack webpack-cli --save-dev
+```
+
 ## Getting packages and debuging with Stylelint
 
 ```
@@ -69,6 +75,16 @@ npx eslint .
 ```
 npm init -y
 npm install --save-dev hint@6.x
+```
+
+##### To Compile and See a live Version, Run
+
+```
+npm run build
+```
+
+```
+npm run start
 ```
 
 ##### For validation detection using Webhint Run
